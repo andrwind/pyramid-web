@@ -1,0 +1,44 @@
+/* общие настройки страницы */
+body {
+    /*  убираем отступы  */
+    margin: 0;
+    /* цвет шрифта и сам шрифт */
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* выводим сообщение о конце игры и инструкцию по центру своих блоков */
+  #results, #instructions {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    /* затемняем фон */
+    background-color: rgba(20, 20, 20, 0.75);
+  }
+  
+  /* сообщение о конце игры не показываем на старте */
+  #results {
+    display: none;
+    cursor: default;
+  }
+  
+  /* отступы в текстах */
+  #results .content,
+  #instructions .content {
+    max-width: 300px;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  
+  /* настройка вывода набранных очков в правом верхнем углу */
+  #score {
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    top: 30px;
+    right: 30px;
+  }
