@@ -269,7 +269,7 @@ window.addEventListener("keydown", function (event) {
     // выходим из обработчика
     return;
   }
-});
+};
 
 // своя оббраотка нажатия пробела
 function eventHandler() {
