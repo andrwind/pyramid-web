@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Пирамида</title>
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+ <!-- блок с инструкциями -->
+<div id="instructions">
+  <div class="content">
+    <p>Ставьте блоки друг на друга.</p>
+    <p>Щёлкните мышкой или нажмите пробел, когда блок будет над пирамидой. Сможете дойти до синих блоков?</p>
+    <p>Щёлкните мышкой или нажмите пробел, чтобы начать игру.</p>
+  </div>
+</div>
+<!-- блок с результатами игры -->
+<div id="results">
+  <div class="content">
+    <p>Вы промахнулись.</p>
+    <p>Для перезапуска игры нажмите R или проведите пальцем по экрану.</p>
+  </div>
+</div>
+<!-- блок с очками -->
+<div id="score">0</div>
+  <!-- подключаем Three.js -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script>
+  <!-- подключаем Cannon.js -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js'></script>
+  <!-- подключаем наш скрипт -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
