@@ -28,7 +28,8 @@ body {
   /* отступы в текстах */
   #results .content,
   #instructions .content {
-    max-width: 300px;
+    font-size: 2em;
+    max-width: 500px;
     padding: 50px;
     border-radius: 20px;
   }
