@@ -247,7 +247,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 } else {
   // иначе, если это ПК, добавляем отслеживание нажатия мыши
   window.addEventListener("mousedown", eventHandler);
-}
+
 
 
 
@@ -269,7 +269,7 @@ window.addEventListener("keydown", function (event) {
     // выходим из обработчика
     return;
   }
-};
+}};
 
 // своя оббраотка нажатия пробела
 function eventHandler() {
