@@ -4,6 +4,7 @@ body {
     margin: 0;
     /* цвет шрифта и сам шрифт */
     color: white;
+    font-size: 2em;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
@@ -28,7 +29,6 @@ body {
   /* отступы в текстах */
   #results .content,
   #instructions .content {
-    font-size: 2em;
     max-width: 500px;
     padding: 50px;
     border-radius: 20px;
