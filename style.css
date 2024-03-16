@@ -44,11 +44,3 @@ body {
   top: 30px;
   right: 30px;
 }
-
-/* настройка вывода подсказки в левом верхнем углу */
-#help {
-  position: absolute;
-  color: white;
-  top: 30px;
-  left: 30px;
-}
