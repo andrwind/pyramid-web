@@ -2,7 +2,7 @@
 <html lang="ru" >
 <head>
   <meta charset="UTF-8">
-  <title>Пирамида</title>
+  <title>Pyramid</title>
   <!-- подключаем стили -->
   <link rel="stylesheet" href="./style.css">
 
@@ -11,26 +11,28 @@
  <!-- блок с инструкциями -->
 <div id="instructions">
   <div class="content">
-    <h2>Пирамида</h2>
-    <p>Ставьте блоки друг на друга.</p>
-    <p>Сможете дойти до синих блоков?</p>
-    <p>Коснитесь пальцем, щёлкните мышкой или нажмите пробел, когда блок будет над пирамидой.</p>
-    <p>Двиньте пальцем, щёлкните мышкой или нажмите пробел, чтобы начать игру.</p>
+    <h2>Pyramid</h2>
+    <p>Place blocks on top of each other.<br>Ставьте блоки друг на друга.<br>将块放置在彼此的顶部。</p>
+    <p>Can you reach the blue blocks?<br>Сможете дойти до синих блоков?<br>你能到达蓝色方块吗？</p>
+    <p><b>Tap your finger/палец/手指</b>, click the <b>mouse</b>, or press the <b>"spacebar"</b> when the block is above the pyramid.</p>
+    <p><b>Move your finger/палец/手指</b>, click the <b>mouse</b> or press the <b>"spacebar"</b> to start the game.</p>
   </div>
 </div>
 <!-- блок с результатами игры -->
 <div id="results">
   <div class="content">
-    <p>Вы промахнулись.</p>
-    <p>Для перезапуска игры двиньте пальцем или нажмите клавишу R.</p>
+    <p>You missed.<br>Вы промахнулись.<br>你错过了。</p>
+    <p>To restart the game, move your finger/палец/手指 or press the "R" key.</p>
   </div>
 </div>
 <!-- блок с очками -->
 <div id="score">0</div>
   <!-- подключаем Three.js -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script>
+  <script src='three.min.js'></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js'></script> -->
   <!-- подключаем Cannon.js -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js'></script>
+  <script src='cannon.min.js'></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js'></script> -->
   <!-- подключаем наш скрипт -->
   <script  src="./script.js"></script>
 
